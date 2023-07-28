@@ -26,7 +26,7 @@ print ('compare to mean(population): ', statistics.mean(population))
 populationsquareddeviations = squareddeviationsfrommean(population, populationmean)
 populationvariance = sum(populationsquareddeviations)/populationsize
 print ('population variance: ', populationvariance);
-print ('compare to pvariance(): ', statistics.pvariance(population))
+print ('compare to pvariance(population): ', statistics.pvariance(population))
 
 
 # https://docs.python.org/3/library/random.html?highlight=randrange#random.sample
@@ -41,5 +41,5 @@ print ('biased sample variance', biasedsamplevariance)
 
 unbiasedsamplevariance = sum(samplesquareddeviations)/(samplesize-1)
 print ('unbiased sample variance', unbiasedsamplevariance);
-print ('compare to variance() ', statistics.variance(sample));
+print ('compare to variance(sample) ', statistics.variance(sample));
 
