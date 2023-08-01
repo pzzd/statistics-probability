@@ -14,10 +14,9 @@ def squareddeviationsfrommean (values, mean):
 
 population = []
 # https://docs.python.org/3/library/random.html?highlight=randrange#random.sample
-for x in range (1, populationsize):
+for x in range (0, populationsize):
 	population.append(random.randrange(lowest,highest))
 # print (population)
-
 
 populationmean = sum(population)/populationsize
 print ('population mean: ', populationmean)
