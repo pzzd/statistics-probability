@@ -1,6 +1,8 @@
 import random, statistics
 import matplotlib.pyplot as plt
 from statistics import mean
+import modules.my_stat_functions as my
+
 
 lowestcoord = 100
 highestcoord = 300
