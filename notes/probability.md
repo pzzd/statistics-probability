@@ -31,3 +31,20 @@ The expected value of the sum of random variables is equal to the sum of the exp
 E(X+Y) = µ<sub>X+Y</sub> = µ<sub>X</sub> + µ<sub>Y</sub>
 
 E(X-Y) = µ<sub>X-Y</sub> = µ<sub>X</sub> - µ<sub>Y</sub>
+
+
+## Variance of sum and difference of random variables
+
+For independent random variables X and Y, the varience of their sum or difference is the sum of their variances.
+
+var(X ± Y) = var(X) + var(Y)
+
+If you add **or** subtract X and Y, you still only add their separate variances. This is because variance is a range or variability in values. In fact, whether you add or subtract, the variability in the values of the variables will increase.
+
+Example: Let's say 15 ≤ X ≤ 17 and 3 ≤ Y ≤ 5. Then 18 ≤ X + Y ≤ 22 and 10 ≤ X - Y ≤ 14. For the last inequality, the lowest X minus the highest Y is 10 and the highest X minus the lowest Y is 14.
+
+You **cannot** simply add or subtract standard deviation (σ). You must work with variance and square-root it to find SD.
+
+σ<sup>2</sup><sub>X+Y</sub> = σ<sup>2</sup><sub>X</sub> + σ<sup>2</sup><sub>Y</sub>
+
+σ = (σ<sup>2</sup>)<sup>1/2</sup>
