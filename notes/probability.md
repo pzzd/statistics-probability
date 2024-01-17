@@ -48,3 +48,17 @@ You **cannot** simply add or subtract standard deviation (σ). You must work wit
 σ<sup>2</sup><sub>X+Y</sub> = σ<sup>2</sup><sub>X</sub> + σ<sup>2</sup><sub>Y</sub>
 
 σ = (σ<sup>2</sup>)<sup>1/2</sup>
+
+**Why does it matter that the random variables are independent?** When the vars are not independent, then one determines the value of the other and so it also affects its variability. Here is a example: Let's say we have two variables:
+```
+X = the number of hours a random person slept yesterday
+Y = the number of hours a random person was awake yesterday
+```
+These vars are completely dependent on each other, and in fact X + Y must always equal 24 hours. That mans that variance of X + Y must be 0.
+
+
+
+
+
+
+
