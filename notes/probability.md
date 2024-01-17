@@ -43,14 +43,28 @@ If you add **or** subtract X and Y, you still only add their separate variances.
 
 Example: Let's say 15 ≤ X ≤ 17 and 3 ≤ Y ≤ 5. Then 18 ≤ X + Y ≤ 22 and 10 ≤ X - Y ≤ 14. For the last inequality, the lowest X minus the highest Y is 10 and the highest X minus the lowest Y is 14.
 
-Why does it make sense to add variances of two vars to find the variance of the sum **or** difference of those vars? Variance uses the **square** of the difference between X and the mean of X. Let's assume σ<sup>2</sup><sub>X+Y</sub> = σ<sup>2</sup><sub>X</sub> + σ<sup>2</sup><sub>Y</sub>, and let's remember σ<sup>2</sup><sub>Y</sub> = var(Y) = E((Y - E(Y))<sup>2</sup>).
-```
+Why does it make sense to add variances of two vars to find the variance of the sum **or** difference of those vars? Variance uses the **square** of the difference between X and the mean of X. Let's assume:
+
+σ<sup>2</sup><sub>X+Y</sub> = σ<sup>2</sup><sub>X</sub> + σ<sup>2</sup><sub>Y</sub>
+
+And let's remember 
+
+σ<sup>2</sup><sub>Y</sub> = var(Y) = E((Y - E(Y))<sup>2</sup>)
+
+E(-Y) = -E(Y)
+
+Now we work it out:
+
 σ<sup>2</sup><sub>X-Y</sub> = σ<sup>2</sup><sub>X+ -Y</sub> = σ<sup>2</sup><sub>X</sub> + σ<sup>2</sup><sub>-Y</sub>
 
 σ<sup>2</sup><sub>-Y</sub> = E( (-Y - E(-Y))<sup>2</sup> )
-                           = E( ((-1)<sup>2</sup>(Y + E(-Y)))<sup>2</sup> ) 
-                           
-```
+
+σ<sup>2</sup><sub>-Y</sub> = E( ((-1)<sup>2</sup>(Y + E(-Y)))<sup>2</sup> )    # Factor out -1, and -1<sup>2</sup> = 1
+
+σ<sup>2</sup><sub>-Y</sub> = E( (Y - E(Y))<sup>2</sup> )                       # because E(-Y) = -E(Y)
+
+σ<sup>2</sup><sub>-Y</sub> = σ<sup>2</sup><sub>Y</sub>                        # from definition above
+
 
 **TODO: get a proof here?**
 
