@@ -37,13 +37,20 @@ E(X-Y) = µ<sub>X-Y</sub> = µ<sub>X</sub> - µ<sub>Y</sub>
 
 For independent random variables X and Y, the varience of their sum or difference is the sum of their variances.
 
-var(X ± Y) = var(X) + var(Y)
+var(X ± Y) = var(X) + var(Y) or σ<sup>2</sup><sub>X±Y</sub> = σ<sup>2</sup><sub>X</sub> + σ<sup>2</sup><sub>Y</sub>
 
 If you add **or** subtract X and Y, you still only add their separate variances. This is because variance is a range or variability in values. In fact, whether you add or subtract, the variability in the values of the variables will increase.
 
 Example: Let's say 15 ≤ X ≤ 17 and 3 ≤ Y ≤ 5. Then 18 ≤ X + Y ≤ 22 and 10 ≤ X - Y ≤ 14. For the last inequality, the lowest X minus the highest Y is 10 and the highest X minus the lowest Y is 14.
 
-Why does it make sense to add variances of two vars to find the variance of the sum **or** difference of those vars? Variance uses the **square** of the difference between X and the mean of X. Let's assume var(X + Y) = var(X) + var(Y), and let's remember σ<sup>2</sup><sub>Y</sub> = var(Y) = (E(Y - E(Y))<sup>2</sup>.
+Why does it make sense to add variances of two vars to find the variance of the sum **or** difference of those vars? Variance uses the **square** of the difference between X and the mean of X. Let's assume σ<sup>2</sup><sub>X+Y</sub> = σ<sup>2</sup><sub>X</sub> + σ<sup>2</sup><sub>Y</sub>, and let's remember σ<sup>2</sup><sub>Y</sub> = var(Y) = E((Y - E(Y))<sup>2</sup>).
+```
+σ<sup>2</sup><sub>X-Y</sub> = σ<sup>2</sup><sub>X+ -Y</sub> = σ<sup>2</sup><sub>X</sub> + σ<sup>2</sup><sub>-Y</sub>
+
+σ<sup>2</sup><sub>-Y</sub> = E( (-Y - E(-Y))<sup>2</sup> )
+                           = E( ((-1)<sup>2</sup>(Y + E(-Y)))<sup>2</sup> ) 
+                           
+```
 
 **TODO: get a proof here?**
 
