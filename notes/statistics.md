@@ -26,3 +26,10 @@ MAD gives a single figure for central tendency: it is the average of all the abs
 Example: With a dataset of {2, 2, 4, 4}, the mean is 3. MAD is 
 (|2-3| + |2-3| + |4-3| + |4-3|) / 4 = 4/4 = 1
 
+## Two-way tables
+
+A two-way table has two variables, one on each axis. It has a join distribution along two dimensions.
+
+Marginal distribution focuses on one dimesion. It is labeled at the margin of the two-way table. It is the total at the end of the row or column, and it could be a count or percentage.
+
+Conditional distribution is the distribution of one variable given the other variable: that is, an entire single column or row. Usually a percentage is used, calculatged with the row or column total.
