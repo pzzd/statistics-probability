@@ -8,7 +8,7 @@
 
 "Average" is a "typical" or "middle" value, a value of central tendency. Here are some "middle" values:
 
-Arithmetic **mean** is the sum of values divided by the number of values.
+**Mean** is the sum of values divided by the number of values.
 
 **Midrange** is the mean of the highest and lowest values.
 
