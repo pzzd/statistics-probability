@@ -6,9 +6,18 @@
 
 **Inferential** statistics is drawing conclusions about data.
 
-"Average" is a "typical" or "middle" value, a value of central tendency. 
+"Average" is a "typical" or "middle" value, a value of central tendency. Here are some "middle" values:
 
-Arithmetic mean is the sum of values divided by the number of values.
+Arithmetic **mean** is the sum of values divided by the number of values.
+
+**Midrange** is the mean of the highest and lowest values.
+
+**Mode** is the most common value.
+
+**Range** is the highest value minus the lowest value.
+
+**Median** is the middle value, or the average of the two middle values if you have an even number of values.
+
 
 ## Mean Absolute Deviation
 
