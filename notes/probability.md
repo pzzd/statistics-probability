@@ -79,7 +79,7 @@ You **cannot** simply add or subtract standard deviation (σ). You must work wit
 X = the number of hours a random person slept yesterday
 Y = the number of hours a random person was awake yesterday
 ```
-These vars are completely dependent on each other, and in fact X + Y must always equal 24 hours. That mans that variance of X + Y must be 0.
+These vars are completely dependent on each other, and in fact X + Y must always equal 24 hours. That mans that variance of X + Y must be 0. In this example, the variables influence each other completely, but in other instances there could be a partial influence, and stil their variability would be effected.
 
 
 
