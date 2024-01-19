@@ -2,7 +2,10 @@
 
 Notes are based on lessons in Kahn Academy, track "".
 
-## Linear transformations on a probability distribution
+## Combining random variables
+
+
+### Linear transformations on a probability distribution
 
 If you **add to** a random variable, the mean will change byt he amount added, but the standard deviation will stay the same. This is easy to see with a graph. Here, X is a random variable, k is a constant.
 
@@ -22,7 +25,7 @@ When you scale a random variable (i.e., multiply it by a constant), it scales bo
 
 Visually, you stretch by k horizontally, and vertically, you flatten by k. This preserves the area under the curve. **Need more detail here.**
 
-## Mean of sum and difference of random variables
+### Mean of sum and difference of random variables
 
 Remember, Expected Value is the same thing as Mean of a random variable: E(X) = µ<sub>X</sub>
 
@@ -33,7 +36,7 @@ E(X+Y) = µ<sub>X+Y</sub> = µ<sub>X</sub> + µ<sub>Y</sub>
 E(X-Y) = µ<sub>X-Y</sub> = µ<sub>X</sub> - µ<sub>Y</sub>
 
 
-## Variance of sum and difference of random variables
+### Variance of sum and difference of random variables
 
 For independent random variables X and Y, the varience of their sum or difference is the sum of their variances.
 
@@ -81,6 +84,11 @@ Y = the number of hours a random person was awake yesterday
 ```
 These vars are completely dependent on each other, and in fact X + Y must always equal 24 hours. That mans that variance of X + Y must be 0. In this example, the variables influence each other completely, but in other instances there could be a partial influence, and stil their variability would be effected.
 
+
+### Examples
+When you combine random variables, you produce a new random distribution that lets you answer probability questions that take both variables into account.
+
+![IMG_0067](https://github.com/pzzd/statistics-probability/assets/5471867/a4deaa32-50e8-4e89-8dab-2f6a0a644d4b)
 
 
 
