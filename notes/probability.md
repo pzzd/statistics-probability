@@ -90,6 +90,9 @@ When you combine random variables, you produce a new random distribution that le
 
 ![IMG_0067](https://github.com/pzzd/statistics-probability/assets/5471867/a4deaa32-50e8-4e89-8dab-2f6a0a644d4b)
 
+![IMG_0069](https://github.com/pzzd/statistics-probability/assets/5471867/f729096a-2753-4a84-9659-3d0a6f45ce24)
+
+
 
 
 
