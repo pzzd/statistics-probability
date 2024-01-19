@@ -88,7 +88,8 @@ These vars are completely dependent on each other, and in fact X + Y must always
 ### Examples
 When you combine random variables, you produce a new random distribution that lets you answer probability questions that take both variables into account.
 
-![IMG_0067](https://github.com/pzzd/statistics-probability/assets/5471867/a4deaa32-50e8-4e89-8dab-2f6a0a644d4b)
+
+![IMG_0067](https://github.com/pzzd/statistics-probability/assets/5471867/e7bc9981-2e86-4f63-aad0-e7eb02d2563f)
 
 ![IMG_0069](https://github.com/pzzd/statistics-probability/assets/5471867/f729096a-2753-4a84-9659-3d0a6f45ce24)
 
