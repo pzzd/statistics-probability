@@ -2,7 +2,7 @@
 
 Notes are based on lessons in Kahn Academy, track "".
 
-## Combining random variables
+## Combining normal random variables
 
 
 ### Linear transformations on a probability distribution
