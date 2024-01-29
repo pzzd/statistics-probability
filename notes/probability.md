@@ -25,7 +25,7 @@ When you scale a random variable (i.e., multiply it by a constant), it scales bo
 
 Visually, you stretch by k horizontally, and vertically, you flatten by k. This preserves the area under the curve. **Need more detail here.**
 
-### Mean of sum and difference of random variables
+### Mean of sum and difference of normal random variables
 
 Remember, Expected Value is the same thing as Mean of a random variable: E(X) = µ<sub>X</sub>
 
@@ -35,6 +35,7 @@ E(X+Y) = µ<sub>X+Y</sub> = µ<sub>X</sub> + µ<sub>Y</sub>
 
 E(X-Y) = µ<sub>X-Y</sub> = µ<sub>X</sub> - µ<sub>Y</sub>
 
+The sum of normally distributed variables is also normall distributed.
 
 ### Variance of sum and difference of random variables
 
