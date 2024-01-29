@@ -55,6 +55,15 @@ A histogram gives a rough sense of density.
 
 Density (or probability density function PDF) of an absolutely continuous random variable is a function whose value at any given sample in the sample space can be interpreted as providing a relative likelihood that the value of the random variable would be equal to that sample. PDF is used to specify the probability of the random variable falling within a particular range of values, as opposed to taking any one value.
 
+### Stem and Leaf Plot
 
+A stem and leaf plot breaks up data into groups. In this example, it breaks up values into intervals 0-9, 10-19, 20-29. The actual data is 00, 00, 02, 04, 07, 09, 11, 11, 13, 18, 20.
 
+| stem | leaf |
+| --- | --- |
+| 0 | 0 0 2 4 7 9 |
+| 1 | 1 1 3 8 |
+| 2 | 0 |
+
+A stem and leaf plot shows a distribution across intervals to help visualize the shape of a distribution. It was popular in the past because pulications used monospaced fonts. It retains the original data to at least two signficant digits, and puts the data in order.
 
