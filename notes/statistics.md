@@ -67,3 +67,47 @@ A stem and leaf plot breaks up data into groups. In this example, it breaks up v
 
 A stem and leaf plot shows a distribution across intervals to help visualize the shape of a distribution. It was popular in the past because pulications used monospaced fonts. It retains the original data to at least two signficant digits, and puts the data in order.
 
+## Distribution Shapes
+
+
+**Symmetric**
+```
+       XX
+     XXXXXX
+  XXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+```
+
+**Left-skewed**
+```
+                X
+             XXXX
+         XXXXXXXX
+     XXXXXXXXXXXX
+XXXXXXXXXXXXXXXXX
+```
+
+**Right-skewed**
+```
+XX
+XXXXXXX
+XXXXXXXXX
+XXXXXXXXXXXXXXXXX
+```
+
+**Bimodal** is symmetric but it's important feature is two peaks.
+```
+  X          X
+ XXX        XXX
+XXXXXXX   XXXXXXX
+XXXXXXXXXXXXXXXXX
+```
+
+**Uniform** or approximately uniform
+```
+XX XXX  XXXXXXX X
+XXXXXX XXXXXXXXXX
+XXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXX
+```
