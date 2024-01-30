@@ -111,3 +111,22 @@ XXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXX
 ```
+**Outlier** is a data point that is much smller or much larger than the rest.
+
+**Cluster** is a grouping of data.
+
+**Peak** on a chart is the highest point in a cluster. It could be a value that the most data points have.
+
+To describe a distribution, use these attributes:
+- shape
+- center (e.g., mean or median)
+- spread (e.g., range, interquartile range, mean absolute deviation)
+- outliers
+
+Removing an outlier impacts the mean because the mean is calculated with the sum of all values.
+
+Removing an outlier can impact the median by changing what values are used to calculate the median (e.g., you remove the outlier and are left with an even number of values). If you remove an outlier that is less than the mean, the median will be higher. And vice versa.
+
+In a left-skewed histogram, the median is to the right of the mean. In a symmetrical histogram, the mean and median are equal.
+
+
