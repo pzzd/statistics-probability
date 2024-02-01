@@ -129,4 +129,14 @@ Removing an outlier can impact the median by changing what values are used to ca
 
 In a left-skewed histogram, the median is to the right of the mean. In a symmetrical histogram, the mean and median are equal.
 
+## Interquartile Range
 
+IQR describes the middle 50% of values when ordered from lowest to highest. It is a measure of spread or statistical dispersion in descriptive statistics. Other terms for it are "midspread", "middle 50%", "fourth spread", or "H-spread".
+
+To find IQR, find the median of the lower and upper halves of the data.These values are quartile 1 (Q1) an quartile 3 (Q3). Put another way, it's the difference between 75th and 25th percentiles. IQR = Q3 - Q1.
+
+- Q1, lower quartile, 25th percentile
+- Q2, median
+- Q3, upper quartile, 75th percentile
+
+IQR is visualized by a box plot. IQR is used to identify outliers and may indicate skewness.
