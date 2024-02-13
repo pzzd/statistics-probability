@@ -94,7 +94,20 @@ When you combine random variables, you produce a new random distribution that le
 
 ![IMG_0069](https://github.com/pzzd/statistics-probability/assets/5471867/f729096a-2753-4a84-9659-3d0a6f45ce24)
 
+---
 
+## Binomial Variables
+
+A binomial variable has these characteristics:
+
+- calculated from in **independent** trials
+- each trial can be classified as one of two values (success or failure)
+- there are a fixed number of trials
+- the probability of success in each trial is constant
+
+Take for example a coin with a 60% chance of heads. A variable X is equal to the number of heads that result from 10 coin flips. X is a binomial variable because it complies with the charaxcteristics above.
+
+A variable Y is equal to number of kings after taking 2 cards from a standard deck, without replacement. Y is not a binomial variable because the trials are not independent and the probability of success in each trial is not constant.
 
 
 
