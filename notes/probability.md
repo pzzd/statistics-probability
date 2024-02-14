@@ -111,5 +111,22 @@ A variable Y is equal to number of kings after taking 2 cards from a standard de
 
 
 
+### Ten-percent rule
+
+This is a rule of thumb applied to normal and binomial distribution to say a distribution is “pretty much” the result of independent trials, even though it technically is not. We would want to use this rule because we can make inferences about these distributions if we assume the trials are independent.
+
+The rule is this: If the sample is less than or equal to 10% of the population, then it is ok to assume approximate independence.
+
+How can we be ok accepting this rule. Imagine a scenario where you are interviewing people as they leave a crowded location. You want to interview 10 people as they leave; the crowd is maybe several thousand people. The people leaving do not re-enter the crowd, so technically, as you interview them there is no replacement back into the population and so the trials are not independent (just like drawing cards out of a deck without replacement makes the trials dependent). But the population is so large that it is effectively negligible.
+
+When the sample size is 10% and there is no replacement, the probability of success is acceptably close to the probability with replacement.
+
+In this image, random variable X is calculated with sample size 3 out of populations 20, 30, 100, and 10,000. With replacement, the trials are independent and P(X=3) is the same for all population sizes. Without replacement, trials are not independent, and it P(X=3) is affected by the population size. At population of 30, where the sample/population is 10%, P(X=3) is acceptably close to the target of 12.5%. So we can reasonably say the trials are independent even though they technically are not.
+
+Some caveats:
+- The lower the percentage the sample is compared to the population, the better for assuming trial independence.
+- On the other hand large sample sizes tend to be a lot better than small sample sizes.
+
+
 
 
