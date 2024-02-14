@@ -121,6 +121,8 @@ How can we be ok accepting this rule. Imagine a scenario where you are interview
 
 When the sample size is 10% and there is no replacement, the probability of success is acceptably close to the probability with replacement.
 
+![IMG_0084](https://github.com/pzzd/statistics-probability/assets/5471867/263ec5fa-c0a1-47c6-87a7-c4e5bebc121d)
+
 In this image, random variable X is calculated with sample size 3 out of populations 20, 30, 100, and 10,000. With replacement, the trials are independent and P(X=3) is the same for all population sizes. Without replacement, trials are not independent, and it P(X=3) is affected by the population size. At population of 30, where the sample/population is 10%, P(X=3) is acceptably close to the target of 12.5%. So we can reasonably say the trials are independent even though they technically are not.
 
 Some caveats:
