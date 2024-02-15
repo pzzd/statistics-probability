@@ -131,4 +131,38 @@ Some caveats:
 
 
 
+## Binomial probability example
+
+Let’s say when you throw free throws, you have a 70% chance of scoring and a 30% chance of missing. What is the probability that you will score exactly 2 out of 6 attempts?
+
+P(S) = 0.7
+P(M) = 0.3
+
+This is a combinatorics problem. You can to know first how many ways you can score 2 out of 6 attempts. You could score the first two and miss the rest, you could score the first and third, and miss the rest, etc. 
+
+[S, S, M, M, M, M]
+[S, M, S, M, M, M]
+etc.
+
+Each of these combinations will have the same probability, calculated like this:
+
+0.7 * 0.7 * 0.3 * 0.3 * 0.3 * 0.3
+0.7<sup>2</sup>0.3<sup>4</sup>
+
+6C2 is “six choose 2”
+
+(<sup>6</sup><sub>2</sub>) 
+Using the formula, the number of combinations of 2 scores in 6 attempts is
+
+6C2 = 6! / 2!(6-2)!
+     = 15
+
+The probability of exactly 2 scores in 6 attempts (we’ll use X) is calculated like this:
+
+P(X) = (6 2)0.7<sup>2</sup>0.3<sub>4</sub>
+     = 15 * 0.49 * 0.0081
+     = 0.059535
+
+This makes sense since you have a high chance to make a free throw: it would be hard to imagine only making 2 in 6 attempts.
+
 
