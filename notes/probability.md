@@ -149,6 +149,8 @@ Each of these combinations will have the same probability, calculated like this:
 0.7 * 0.7 * 0.3 * 0.3 * 0.3 * 0.3
 0.7<sup>2</sup>0.3<sup>4</sup>
 
+![IMG_0085](https://github.com/pzzd/statistics-probability/assets/5471867/4f2b0c1d-290f-41c3-896b-3f89a2c032ca)
+
 6C2 is “six choose 2”
 
 (<sup>6</sup><sub>2</sub>) 
