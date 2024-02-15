@@ -140,3 +140,9 @@ To find IQR, find the median of the lower and upper halves of the data.These val
 - Q3, upper quartile, 75th percentile
 
 IQR is visualized by a box plot. IQR is used to identify outliers and may indicate skewness.
+
+![IMG_0086](https://github.com/pzzd/statistics-probability/assets/5471867/933d0209-e317-4c27-b9c5-4a7bfdeee5f2)
+
+Outliers might be defined as values that are below Q1 - 1.5(Q1) and above Q3 + 1.5(Q3). The highest and lowest values within this limit are the whiskers on a box plot.
+
+For a symmetric distribution (where the median = mean of the first and third quartiles) half of the IQR equals the median absolute deviation.
