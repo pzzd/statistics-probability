@@ -154,9 +154,8 @@ Each of these combinations will have the same probability, calculated like this:
 
 ![IMG_0085](https://github.com/pzzd/statistics-probability/assets/5471867/4f2b0c1d-290f-41c3-896b-3f89a2c032ca)
 
-<sub>6</sub>C<sub>2</sub> is “six choose 2”.
+<sub>6</sub>C<sub>2</sub> is “six choose 2”. (<sup>6</sup><sub>2</sub>) is the binomial coeffient notation of "six choose 2".
 
-(<sup>6</sup><sub>2</sub>) 
 Using the formula, the number of combinations of 2 scores in 6 attempts is
 
 <sub>6</sub>C<sub>2</sub> = 6! / 2!(6-2)! = 15
