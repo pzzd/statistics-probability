@@ -151,17 +151,16 @@ Each of these combinations will have the same probability, calculated like this:
 
 ![IMG_0085](https://github.com/pzzd/statistics-probability/assets/5471867/4f2b0c1d-290f-41c3-896b-3f89a2c032ca)
 
-6C2 is “six choose 2”
+<sub>6</sub>C<sub>2</sub> is “six choose 2”.
 
 (<sup>6</sup><sub>2</sub>) 
 Using the formula, the number of combinations of 2 scores in 6 attempts is
 
-6C2 = 6! / 2!(6-2)!
-     = 15
+<sub>6</sub>C<sub>2</sub> = 6! / 2!(6-2)! = 15
 
 The probability of exactly 2 scores in 6 attempts (we’ll use X) is calculated like this:
 
-P(X) = (6 2)0.7<sup>2</sup>0.3<sub>4</sub>
+P(X) = (<sup>6</sup><sub>2</sub>) * 0.7<sup>2</sup> * 0.3<sub>4</sub>
      = 15 * 0.49 * 0.0081
      = 0.059535
 
