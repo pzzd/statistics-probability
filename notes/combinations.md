@@ -16,4 +16,7 @@ How many ways can you seat 3 people if youd don't care what seat they take? How 
 
 First you need to find the number of permutations: this is the full number of arrangements. Then you need to find the number of ways you can arrange 3 different people. In our example it is 6 (see the definition above). To express the number of combinations you use:
 
-number of permutations of 6 people in 3 chairs / number of permutations of 3 people = 120 / 6 = 20
+<sub>6</sub>C<sub>3</sub> = number of permutations of 6 people in 3 chairs / number of permutations of 3 people = combinations of 3 people out of 6 people
+
+<sub>6</sub>C<sub>3</sub> = 120 / 6 = 20
+
