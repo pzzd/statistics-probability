@@ -141,12 +141,15 @@ P(M) = 0.3
 This is a combinatorics problem. You can to know first how many ways you can score 2 out of 6 attempts. You could score the first two and miss the rest, you could score the first and third, and miss the rest, etc. 
 
 [S, S, M, M, M, M]
+
 [S, M, S, M, M, M]
+
 etc.
 
 Each of these combinations will have the same probability, calculated like this:
 
 0.7 * 0.7 * 0.3 * 0.3 * 0.3 * 0.3
+
 0.7<sup>2</sup>0.3<sup>4</sup>
 
 ![IMG_0085](https://github.com/pzzd/statistics-probability/assets/5471867/4f2b0c1d-290f-41c3-896b-3f89a2c032ca)
