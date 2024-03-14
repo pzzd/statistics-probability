@@ -9,4 +9,4 @@ The example shows why you would multiply using a factorial. In the first chair, 
 5! = 5 * 4 * 3 * 2 * 1 = 120
 
 Here is a tree diagram to show permutations of 3 people in 3 chairs. Count the ends of the branches: 3! = 3 * 2 * 1 = 6.
-
+![IMG_0119](https://github.com/pzzd/statistics-probability/assets/5471867/1f8ab365-77f4-4a38-a8d5-ccb3fb07da81)
