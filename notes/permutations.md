@@ -17,5 +17,5 @@ P(n,r) = n! / (n - r)!
 
 The formula takes into account that there may be fewer places for arranging items than there are items to be arranged. The variable n is the number of items, the variable r is the number of places. It could be written as P(n,r) or nPr.
 
-Example: We have 5 people to arrange in 3 chairs. Any of 5 people can go in the first chair, any of 4 can go in the second chair, and any of 3 can go in the third chair, and that's it. Calculate that with 5 * 4 * 3, which can easily be done by hand. Another way to think about it is (5 * 4 * 3 * 2 * 1)/(2 * 1), and the (2 * 1) cancel each other out. (
+Example: We have 5 people to arrange in 3 chairs. Any of 5 people can go in the first chair, any of 4 can go in the second chair, and any of 3 can go in the third chair, and that's it. Calculate that with 5 * 4 * 3, which can easily be done by hand. Another way to think about it is (5 * 4 * 3 * 2 * 1)/(2 * 1), and the (2 * 1) cancel each other out. You can also write it as 5!/2!. 2! comes from putting 5 things in only 3 chairs: (5-3)!.
 
