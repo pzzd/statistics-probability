@@ -19,3 +19,10 @@ The formula takes into account that there may be fewer places for arranging item
 
 Example: We have 5 people to arrange in 3 chairs. Any of 5 people can go in the first chair, any of 4 can go in the second chair, and any of 3 can go in the third chair, and that's it. Calculate that with 5 * 4 * 3, which can easily be done by hand. Another way to think about it is (5 * 4 * 3 * 2 * 1)/(2 * 1), and the (2 * 1) cancel each other out. You can also write it as 5!/2!. 2! comes from putting 5 things in only 3 chairs: (5-3)!.
 
+## Zero factorial
+
+0! = 1
+
+This is why:
+
+If you use the permutation formula and n = r, you get nPn = n! / (n - n)!. nPn means you want to permute n items in n spots, which can be written as n!. So for the formula to make sense, 0! must equal 1. This is a mathematical definition of 0!.
