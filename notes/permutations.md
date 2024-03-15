@@ -1,6 +1,6 @@
 # Permutations
 
-Permutations means 'the number of ways items can be arranged'. For example, how many ways can 5 people be seated in 5 chairs.
+Permutations means 'the number of ways items can be arranged'. For example, how many ways can 5 people be seated in any of 5 chairs.
 
 The number of permutations is calculated with a factorial. In a case where there are n items and n places, it's n!.
 
