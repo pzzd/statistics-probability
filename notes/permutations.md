@@ -1,6 +1,6 @@
 # Permutations
 
-Permutations means 'the number of ways items can be arranged'. For example, how many ways can 5 people be seated in any of 5 chairs.
+Permutations means 'the number of ways items can be arranged'. For example, how many ways can 5 people be seated in any of 5 chairs. The order of the arrangement is significant.
 
 The number of permutations is calculated with a factorial. In a case where there are n items and n places, it's n!.
 
@@ -26,3 +26,9 @@ Example: We have 5 people to arrange in 3 chairs. Any of 5 people can go in the 
 This is why:
 
 If you use the permutation formula and n = r, you get nPn = n! / (n - n)!. nPn means you want to permute n items in n spots, which can be written as n!. So for the formula to make sense, 0! must equal 1. This is a mathematical definition of 0!.
+
+# Combinations
+
+A combination is selection of a number of items where the order not significant; it's like a group of permutations in which the items are all the same. It's the number of arrangements divided by number of ways a selection can be arranged. 
+
+Example: You have items A, B, C, D, E, F and you want to know the number of 3-letter combinations. The number of permutations is 6 * 5 * 4 = 120. But permutations include ABC, ACB, BAC, BCA, CAB, CBA, etc, and in this example the order is not important: you would group all of those as a single combination of A, B, C. The number of ways 3 items can be arranged is 3 * 2 * 1 = 60. The number of 3-letter combinations from a set of 6 items is <sub>6</sub>C<sub>3</sub> = 120 / 6 = 20.
