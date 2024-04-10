@@ -35,3 +35,8 @@ To express the number of combinations you use:
 
 The total number of combinations is the number of sets of 3-person permutations.
 
+## Formula
+
+C(n,k) = <sub>n</sub>C<sub>k</sub> = n! / k!(n - k)!
+
+This gives you the number of permutation groups. For example, ABC, ACB, BAC, BCA, CAB, CBA are one permutation group or combination.
