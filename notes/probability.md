@@ -138,7 +138,7 @@ Let’s say when you throw free throws, you have a 70% chance of scoring and a 3
 P(S) = 0.7
 P(M) = 0.3
 
-This is a combinatorics problem. You can to know first how many ways you can score 2 out of 6 attempts. You could score the first two and miss the rest, you could score the first and third, and miss the rest, etc. 
+This is a combinatorics problem. You want to know first how many ways you can score 2 out of 6 attempts. You could score the first two and miss the rest, you could score the first and third, and miss the rest, etc. 
 
 [S, S, M, M, M, M]
 
@@ -162,10 +162,15 @@ Using the formula, the number of combinations of 2 scores in 6 attempts is
 
 The probability of exactly 2 scores in 6 attempts (we’ll use X) is calculated like this:
 
-P(X) = (<sup>6</sup><sub>2</sub>) * 0.7<sup>2</sup> * 0.3<sub>4</sub>
+P(X) = (<sup>6</sup><sub>2</sub>) * 0.7<sup>2</sup> * 0.3<sup>9</sup>
      = 15 * 0.49 * 0.0081
      = 0.059535
 
 This makes sense since you have a high chance to make a free throw: it would be hard to imagine only making 2 in 6 attempts.
 
+## A general binomial probabilty formula
+
+P(Exactly k items in set of n items) = (<sup>n</sup><sub>k</sub>) * f<sup>k</sup> * (1-f)<sup>(n-k></sup>
+
+This tells you the probability of getting exactly k items out of n items when the probabality of k or n is not 1. Here, f is the probability of k happening. The expression (<sup>n</sup><sub>k</sub>) is the number of combinations (you do not want permutationsin this case). The expression f<sup>k</sup> * (1-f)<sup>(n-k></sup> gives the combined probability of all the instances of P(k) and P(not k).
 
