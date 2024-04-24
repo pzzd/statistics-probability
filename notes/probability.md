@@ -170,7 +170,7 @@ This makes sense since you have a high chance to make a free throw: it would be 
 
 ## A general binomial probabilty formula
 
-P(Exactly k hits in set of n attempts) = (<sup>n</sup><sub>k</sub>) * f<sup>k</sup> * (1-f)<sup>(n-k></sup>
+P(Exactly k hits in set of n attempts) = (<sup>n</sup><sub>k</sub>) * f<sup>k</sup> * (1-f)<sup>(n-k)</sup>
 
 This tells you the probability of getting exactly k 'hits' out of n attempts when the probabality of a 'hit' is not 1. A 'hit' is one of two outcomes and the probability of a 'hit' is f. The expression f<sup>k</sup> * (1-f)<sup>(n-k></sup> gives the combined probability of one way to get k hits in n attempts. But there is more than one way to get that combined probability, so you mulitply it by the number combinations (that is, the number of ways to get k hits in n attempts).
 
