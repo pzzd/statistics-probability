@@ -178,6 +178,18 @@ This tells you the probability of getting exactly k 'hits' out of n attempts whe
 
 Back to the free throw example. Let's set X equal to "the number of free throws made in 6 attempts". The probability of making a free throw is .7. 
 
-Probability of making 0 shots in 6 attempts:
+Probability of making some number of shots in 6 attempts:
 
 P(X=0) = (<sup>6</sup><sub>0</sub>) * 0.7<sup>0</sup> * 0.3<sup>6</sup> = 1 * 0.7<sup>0</sup> * 0.3<sup>6</sup> = .001
+
+P(X=1) = (<sup>6</sup><sub>1</sub>) * 0.7<sup>1</sup> * 0.3<sup>5</sup> = 6 * 0.7<sup>1</sup> * 0.3<sup>5</sup> = .01
+
+P(X=2) = (<sup>6</sup><sub>2</sub>) * 0.7<sup>2</sup> * 0.3<sup>4</sup> = 15 * 0.7<sup>2</sup> * 0.3<sup>4</sup> = .06
+
+P(X=3) = (<sup>6</sup><sub>3</sub>) * 0.7<sup>3</sup> * 0.3<sup>3</sup> = 20 * 0.7<sup>3</sup> * 0.3<sup>3</sup> = .185
+
+P(X=4) = (<sup>6</sup><sub>4</sub>) * 0.7<sup>4</sup> * 0.3<sup>2</sup> = 15 * 0.7<sup>4</sup> * 0.3<sup>2</sup> = .324
+
+P(X=5) = (<sup>6</sup><sub>5</sub>) * 0.7<sup>5</sup> * 0.3<sup>1</sup> = 6 * 0.7<sup>5</sup> * 0.3<sup>1</sup> = .303
+
+P(X=6) = (<sup>6</sup><sub>6</sub>) * 0.7<sup>6</sup> * 0.3<sup>0</sup> = 1 * 0.7<sup>6</sup> * 0.3<sup>0</sup> = .118
