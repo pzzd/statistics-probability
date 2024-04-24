@@ -174,3 +174,10 @@ P(Exactly k hits in set of n attempts) = (<sup>n</sup><sub>k</sub>) * f<sup>k</s
 
 This tells you the probability of getting exactly k 'hits' out of n attempts when the probabality of a 'hit' is not 1. A 'hit' is one of two outcomes and the probability of a 'hit' is f. The expression f<sup>k</sup> * (1-f)<sup>(n-k></sup> gives the combined probability of one way to get k hits in n attempts. But there is more than one way to get that combined probability, so you mulitply it by the number combinations (that is, the number of ways to get k hits in n attempts).
 
+## Binomial probability distribution example
+
+Back to the free throw example. Let's set X equal to "the number of free throws made in 6 attempts". The probability of making a free throw is .7. 
+
+Probability of making 0 shots in 6 attempts:
+
+P(X=0) = (<sup>6</sup><sub>0</sub>) * 0.7<sup>0</sup> * 0.3<sup>6</sup> = 1 * 0.7<sup>0</sup> * 0.3<sup>6</sup> = .001
