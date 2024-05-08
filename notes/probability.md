@@ -170,9 +170,22 @@ This makes sense since you have a high chance to make a free throw: it would be 
 
 ## A general binomial probabilty formula
 
+This is known as a binomial setting.
+
 P(Exactly k hits in set of n attempts) = (<sup>n</sup><sub>k</sub>) * f<sup>k</sup> * (1-f)<sup>(n-k)</sup>
 
-This tells you the probability of getting exactly k 'hits' out of n attempts when the probabality of a 'hit' is not 1. A 'hit' is one of two outcomes and the probability of a 'hit' is f. The expression f<sup>k</sup> * (1-f)<sup>(n-k></sup> gives the combined probability of one way to get k hits in n attempts. But there is more than one way to get that combined probability, so you mulitply it by the number combinations (that is, the number of ways to get k hits in n attempts).
+This tells you the probability of getting exactly k 'hits' out of n attempts when the probabality of a 'hit' is not 1. A 'hit' is one of two outcomes and the probability of a 'hit' is f. The expression f<sup>k</sup> * (1-f)<sup>(n-k)</sup> gives the combined probability of one way to get k hits in n attempts. But there is more than one way to get that combined probability, so you mulitply it by the number combinations (that is, the number of ways to get k hits in n attempts).
+
+[Put another way](https://www.khanacademy.org/math/ap-statistics/random-variables-ap/binomial-random-variable/a/binomial-probability-basic):
+
+A binomial probability problem has these features:
+- a set number of trials (n)
+- each trial can be classified as a "success" or a "failure"
+- the probability of success (p) is the same for each trial
+- results from each trial are independent of each other
+
+<img width="400" alt="Screenshot 2024-05-08 at 07 29 12" src="https://github.com/pzzd/statistics-probability/assets/5471867/2f0b3fab-78c8-44d6-a400-bfb95ef66a76">
+
 
 ## Binomial probability distribution example
 
