@@ -45,6 +45,6 @@ This gives you the number of permutation groups. For example, ABC, ACB, BAC, BCA
 
 When you choose 0, the number of combinations is 1. For example:
 
-(<sup>6</sup><sub>0</sub) = 6! / 0! * (6-0)! = 6! / 1 * 6! = 1
+(<sup>6</sup><sub>0</sub>) = 6! / 0! * (6-0)! = 6! / 1 * 6! = 1
 
 [Recall that 0! = 1.](https://github.com/pzzd/statistics-probability/blob/main/notes/permutations.md#zero-factorial)
