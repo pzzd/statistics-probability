@@ -146,3 +146,22 @@ IQR is visualized by a box plot. IQR is used to identify outliers and may indica
 Outliers might be defined as values that are below Q1 - 1.5(Q1) and above Q3 + 1.5(Q3). The highest and lowest values within this limit are the whiskers on a box plot.
 
 For a symmetric distribution (where the median = mean of the first and third quartiles) half of the IQR equals the median absolute deviation.
+
+# Population Mean
+
+Population Mean (μ) is an actual real value: the mean across an entire population.  But it may be impossible to measure. For example, could you possibly know the number of hours of TV that every single American watches daily?
+
+Instead, you observe a sample. From this you can find the sample mean (x̄). It's the mean of the sample data and it's an estimate for the population mean.
+
+Population variance (σ<sup>2</sup>) can also be impossible to know. Variance is how much data points vary from the mean. Estimate it with sample variance. 
+
+Here is one what to calculate it, but it's not mainstream: sample variance = (sum of squared mean differences) / (number of data points)
+
+Example: 
+- You have a sample: \[1.5, 4, 1, 2.5, 2, 1\].
+- σ<sup>2</sup> = ( (1.5-2)<sup>2</sup> + (4-2)<sup>2</sup> + (1-2)<sup>2</sup> + (2.5-2)<sup>2</sup> + (2-2)<sup>2</sup> + (1-2)<sup>2</sup> ) / 6
+- σ<sup>2</sup> ≈ 1.08
+
+The mainstream way is actually to divide by the number of samples minus 1 (n-1). This is the standard definition of variance:
+
+σ<sup>2</sup> = nΣi-1 (x<sub>i</sub> - x̄)<sup>2</sup> / n - 1
