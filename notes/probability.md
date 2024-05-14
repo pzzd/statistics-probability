@@ -217,3 +217,24 @@ E(X) = np
 
 Example: A trial is a free throw and success is making the shot. Your P(success) is 0.3. You are going to take 10 shots. So, E(X) = 10 x 0.3 = 3. Makes sense!
 
+Example: Let's use Y to represent the outcome of a free throw (one of the values of a binomial variable): Y = 1 is making the shot, Y = 0 is missing. Still taking 10 shots. We can add up all the trials to get the expected value for the full set of trials. This takes advantage of the expected value property E(A+B) = E(A) + E(B).
+- P(Y = 1) = p = 0.3
+- P(y = 0) = 1-p
+- n = 10
+- X = Y + Y + Y + Y + Y + Y + Y + Y + Y + Y
+- E(X) = E(Y) + E(Y) + E(Y) + E(Y) + E(Y) + E(Y) + E(Y) + E(Y) + E(Y) + E(Y)
+- E(X) = 10 x E(Y)
+
+This works for any number of trials.
+- E(X) = n * E(Y)
+
+What is E(Y)? It is a probability-weighted outcome. Add the probabilty of getting either value.
+- E(Y) = (p * 1) + ((1-p) * 0)
+- E(Y) = p
+
+Now plug in E(Y).
+- E(X) = n x E(Y)
+- E(X) = np
+
+
+
