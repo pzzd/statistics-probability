@@ -155,13 +155,17 @@ Instead, you observe a sample. From this you can find the sample mean (x̄). It'
 
 Population variance (σ<sup>2</sup>) can also be impossible to know. Variance is how much data points vary from the mean. Estimate it with sample variance. 
 
-Here is one what to calculate it, but it's not mainstream: sample variance = (sum of squared mean differences) / (number of data points)
+Here is one what to calculate it, but it's not mainstream: biased sample variance = (sum of squared mean differences) / (number of data points)
 
 Example: 
 - You have a sample: \[1.5, 4, 1, 2.5, 2, 1\].
 - σ<sup>2</sup> = ( (1.5-2)<sup>2</sup> + (4-2)<sup>2</sup> + (1-2)<sup>2</sup> + (2.5-2)<sup>2</sup> + (2-2)<sup>2</sup> + (1-2)<sup>2</sup> ) / 6
 - σ<sup>2</sup> ≈ 1.08
 
-The mainstream way is actually to divide by the number of samples minus 1 (n-1). This is the standard definition of variance:
+However, for an unbiased estimate of the population variance when calculating sample variance, divide by n-1. This is the standard definition of unbiased sample variance:
 
-σ<sup>2</sup> = nΣi-1 (x<sub>i</sub> - x̄)<sup>2</sup> / n - 1
+σ<sup>2</sup> = ( nΣ(i-1) (x<sub>i</sub> - x̄)<sup>2</sup> ) / n - 1
+
+Why? Dividing by n will give you a variance that is too low: the sample mean will always be in the sample, but the population mean may be outside. It turns out n-1 is closer.
+
+That n-1 is a better divisor is demonstrated by a computer simulation.
