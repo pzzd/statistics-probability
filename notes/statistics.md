@@ -168,4 +168,4 @@ However, for an unbiased estimate of the population variance when calculating sa
 
 Why? Dividing by n will give you a variance that is too low: the sample mean will always be in the sample, but the population mean may be outside. It turns out n-1 is closer.
 
-That n-1 is a better divisor is demonstrated by a computer simulation.
+That n-1 is a better divisor is demonstrated by a [computer simulation](https://github.com/pzzd/statistics-probability/blob/main/compare-biased-unbiased.py).
