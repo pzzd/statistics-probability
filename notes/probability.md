@@ -96,7 +96,7 @@ When you combine random variables, you produce a new random distribution that le
 
 ---
 
-## Binomial Variables
+# Binomial Variables
 
 A binomial variable has these characteristics:
 
@@ -111,7 +111,7 @@ A variable Y is equal to number of kings after taking 2 cards from a standard de
 
 
 
-### Ten-percent rule
+## Ten-percent rule
 
 This is a rule of thumb applied to normal and binomial distribution to say a distribution is “pretty much” the result of independent trials, even though it technically is not. We would want to use this rule because we can make inferences about these distributions if we assume the trials are independent.
 
@@ -206,3 +206,14 @@ P(X=4) = (<sup>6</sup><sub>4</sub>) * 0.7<sup>4</sup> * 0.3<sup>2</sup> = 15 * 0
 P(X=5) = (<sup>6</sup><sub>5</sub>) * 0.7<sup>5</sup> * 0.3<sup>1</sup> = 6 * 0.7<sup>5</sup> * 0.3<sup>1</sup> = .303
 
 P(X=6) = (<sup>6</sup><sub>6</sub>) * 0.7<sup>6</sup> * 0.3<sup>0</sup> = 1 * 0.7<sup>6</sup> * 0.3<sup>0</sup> = .118
+
+
+## Expected value of a binomial variable
+
+E(X) = np
+- X = number of successes after n trials
+- p = the P(success) in each trial
+- trials are independent; p is constant
+
+Example: A trial is a free throw and success is making the shot. Your P(success) is 0.3. You are going to take 10 shots. So, E(X) = 10 x 0.3 = 3. Makes sense!
+
