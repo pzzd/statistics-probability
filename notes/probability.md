@@ -236,5 +236,16 @@ Now plug in E(Y).
 - E(X) = n x E(Y)
 - E(X) = np
 
+## Varience of a binomial variable
+
+Var(X) = np(1-p)
+- X = number of successes after n trials = nY
+- p = the P(success) in each trial
+- trials are independent; p is constant
+
+For the Y part of this, each independent trial:
+- success: P(Y = 1) = p
+- failure: P(Y = 0) = 1-p
+- E(Y) = (p*1) + ((1-p)*0) = p
 
 
