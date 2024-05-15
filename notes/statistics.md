@@ -153,7 +153,9 @@ Population Mean (μ) is an actual real value: the mean across an entire populati
 
 Instead, you observe a sample. From this you can find the sample mean (x̄). It's the mean of the sample data and it's an estimate for the population mean.
 
-Population variance (σ<sup>2</sup>) can also be impossible to know. Variance is how much data points vary from the mean. Estimate it with sample variance (s). 
+# Variance
+
+Population variance (σ<sup>2</sup>) can also be impossible to know. Variance is how much data points vary from the mean. Estimate it with sample variance (s<sup>2</sup>). 
 
 Here is one what to calculate it, but it's not mainstream: biased sample variance = (sum of squared mean differences) / (number of data points)
 
@@ -164,7 +166,7 @@ Example:
 
 However, for an unbiased estimate of the population variance when calculating sample variance, divide by n-1. This is the standard definition of unbiased sample variance:
 
-s<sup>2</sup> = ( nΣ(i-1) (x<sub>i</sub> - x̄)<sup>2</sup> ) / n - 1
+s<sub>n-1</sub><sup>2</sup> = ( nΣ(i-1) (x<sub>i</sub> - x̄)<sup>2</sup> ) / n - 1
 
 Why? Dividing by n will give you a variance that is too low: the sample mean will always be in the sample, but the population mean may be outside. It turns out n-1 is closer.
 
@@ -172,4 +174,6 @@ That n-1 is a better divisor is demonstrated by a [computer simulation](https://
 
 # Standard deviation
 
-σ
+Standard deviation of a population (σ) is the square root of the population variance (σ<sup>2</sup>). Sample standard devisation (s) is the square root of a sample variance (s<sub>n-1</sub><sup>2</sup>).
+
+Because the square root is nonlinear, sample SD is not an unbiased estimate of the population SD. But it is the best simple tool we have.
