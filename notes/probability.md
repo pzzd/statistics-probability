@@ -247,10 +247,12 @@ What is Var(Y)? It's the sum of each probability (success of failure) times the 
 - Var(Y) = p(1-p)<sup>2</sup> + (1-p)(0-p)<sup>2</sup> = p(1 - p)
 - the variance of a binomial variable is p(1-p).
 
-Var(X) = np(1-p)
-- X = number of successes after n trials = nY
-- p = the P(success) in each trial
-- trials are independent; p is constant
+Now you can substitute Var(Y) with p(1-p).  You have Var(X) = np(1-p).
+
+Example: You will tak 10 free throws and you have a 30% success rate. What is the variance of the outcomes?
+- n = 10; p = .3
+- E(X) = np(1-p) = 10 * .3 * .7 = 10 * .21 = 2.1
+
 
 
 
