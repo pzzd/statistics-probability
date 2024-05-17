@@ -245,7 +245,7 @@ What is Var(Y)? It's the sum of each probability (success of failure) times the 
 - P(Y = 0) = 1 - p
 - E(Y) = (p*1) + ( (1-p) * 0)
 - Var(Y) = p(1-p)<sup>2</sup> + (1-p)(0-p)<sup>2</sup> = p(1 - p)
-- the variance of a binomial variable is p(1-p).
+- the variance of a binomial variable is p(1-p). That is, the probability of success times the probability of failure.
 
 Now you can substitute Var(Y) with p(1-p).  You have Var(X) = np(1-p).
 
@@ -253,7 +253,20 @@ Example: You will tak 10 free throws and you have a 30% success rate. What is th
 - n = 10; p = .3
 - E(X) = np(1-p) = 10 * .3 * .7 = 10 * .21 = 2.1
 
+How is variance of a binomial variable related to [statistical variance we learned about before](https://github.com/pzzd/statistics-probability/blob/main/notes/statistics.md#variance)?
 
-
-
+### Example
+A company produces processing chips for cellphones. At one of its large factories, 2% of the chips produced are defective in some way. A quality check involves selecting and testing 500 chips in some way. What are the mean and standard deviation of the number of defective processing chips in these samples?
+- Success = a defective chip!
+- P(success) = P(Y=1) = 0.02
+- sample count n = 500
+- X = number of defective chips in 500 samples
+- mean of number of defective chips E(X) = nE(Y)
+- probability weighted outcome E(Y) = 1 * p + 0 * (1-p) = 0.02
+- Now back to the mean: E(X) = 500 * 0.2 = 10
+- SD = sqrt of variance; don't forget to take the square root!
+- Var(X) = nVar(Y)
+- Var(Y) = success probabilty * failure probability = n(1-p) = 0.02 * 0.98
+- back to variance: Var(X) = 500 * 0.02 * 0.98 = 9.8
+- SD = 9.8<sup>1/2</sup> ≈ 3.13
 
