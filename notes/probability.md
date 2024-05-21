@@ -251,7 +251,7 @@ Now you can substitute Var(Y) with p(1-p).  You have Var(X) = np(1-p).
 
 Example: You will tak 10 free throws and you have a 30% success rate. What is the variance of the outcomes?
 - n = 10; p = .3
-- E(X) = np(1-p) = 10 * .3 * .7 = 10 * .21 = 2.1
+- Var(X) = np(1-p) = 10 * .3 * .7 = 10 * .21 = 2.1
 
 How is variance of a binomial variable related to [statistical variance we learned about before](https://github.com/pzzd/statistics-probability/blob/main/notes/statistics.md#variance)?
 
