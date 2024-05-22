@@ -129,7 +129,14 @@ Some caveats:
 - The lower the percentage the sample is compared to the population, the better for assuming trial independence.
 - On the other hand large sample sizes tend to be a lot better than small sample sizes.
 
+## Are these binomial variables?
 
+In a game involving a standard deck of playing cards, an individual randomly draws 7 cards without replacement. Let Y = the number of aces drawn.
+- Y isn't binomial since the cards are being selected without replacement and the sample size is more than 10% of the population size, so the trials are not independent.
+
+60 of a certain species of tomato live after transplanting from pot to garden. Eli transplants 16 of these tomato plants. Assume that the plants live independently of each other. Let 
+T = the number of tomato plants that live.
+- T is binomial. Each trial has two outcomes (live or not), results of each trial are independent, there is a fixed number of trials (16), and the probability of success is the same for each trial (60%).
 
 ## Binomial probability example
 
