@@ -138,6 +138,9 @@ In a game involving a standard deck of playing cards, an individual randomly dra
 T = the number of tomato plants that live.
 - T is binomial. Each trial has two outcomes (live or not), results of each trial are independent, there is a fixed number of trials (16), and the probability of success is the same for each trial (60%).
 
+Suppose that in a school with 150 total students, there are 10 students who have the flu. Administrators take SRS an of 20 students to test for the flu. Let X = the number of students in the sample who test positive for the flu. The trials are not independent, so X is not a binomial variable.
+- X is not a binomial variable. The students are being sampled without replacement, and the sample size of 20 students exceeds 10% of the population size.
+
 ## Binomial probability example
 
 Let’s say when you throw free throws, you have a 70% chance of scoring and a 30% chance of missing. What is the probability that you will score exactly 2 out of 6 attempts?
