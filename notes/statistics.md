@@ -177,3 +177,13 @@ That n-1 is a better divisor is demonstrated by a [computer simulation](https://
 Standard deviation of a population (σ) is the square root of the population variance (σ<sup>2</sup>). Sample standard devisation (s) is the square root of a sample variance (s<sub>n-1</sub><sup>2</sup>).
 
 Because the square root is nonlinear, sample SD is not an unbiased estimate of the population SD. But it is the best simple tool we have.
+
+# Mean and standard deviation vs. median and IQR
+
+If you have a skewed data set, with a faraway outlier, median is a good measure of central tendency and interquartile range is a more robust measure of spread. IQR and median are not affected by an outlier.
+
+<img width="400" alt="line plot with outlier" src="https://github.com/pzzd/statistics-probability/assets/5471867/4e3b56c3-5672-425f-925a-eec44d97d840">
+
+Mean and standard deviation make more sense for a symmetric data set. Standard deviation is based on mean.
+
+
