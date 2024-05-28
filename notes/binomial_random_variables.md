@@ -1,11 +1,13 @@
-# Binomial Variables
+# Binomial Random Variables
 
-A binomial variable has these characteristics:
+A binomial random variable has these characteristics:
 
-- calculated from in **independent** trials
+- calculated from **independent** trials
 - each trial can be classified as one of two values (success or failure)
 - there are a fixed number of trials
 - the probability of success in each trial is constant
+
+"Binomial" refers to the binomial coefficient used for finding the number of different outcomes with different probabilities. Binomial coefficients are based on combinatorics. Related topics: Pascal's Triangle, taking a binomial to ever increasing powers.
 
 Take for example a coin with a 60% chance of heads. A variable X is equal to the number of heads that result from 10 coin flips. X is a binomial variable because it complies with the charaxcteristics above.
 
@@ -32,6 +34,12 @@ Some caveats:
 - On the other hand large sample sizes tend to be a lot better than small sample sizes.
 
 ## Are these binomial variables?
+
+X is the number of 6s after 12 rolls for a fair die.
+- Yes, it's a binomial random variable!
+
+Y is the number of rolls until you get 6 on a fair die.
+- No, this is a geometric random variable.
 
 In a game involving a standard deck of playing cards, an individual randomly draws 7 cards without replacement. Let Y = the number of aces drawn.
 - Y isn't binomial since the cards are being selected without replacement and the sample size is more than 10% of the population size, so the trials are not independent.
