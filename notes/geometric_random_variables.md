@@ -1,6 +1,6 @@
 # Geometric Random Variables
 
-GRVs have these characteristics:
+A geometric random variable is the number of trials it takes to get the first success; it has these characteristics:
 - a trial outcome is a success or a failure
 - the trial results are independent
 - there is the same probability in each trial
