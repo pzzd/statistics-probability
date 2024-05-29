@@ -1,6 +1,6 @@
 # Binomial Random Variables
 
-A binomial random variable has these characteristics:
+A binomial random variable is the number of successes that occur in a set number of trials. A BRV has these characteristics:
 
 - calculated from **independent** trials
 - each trial can be classified as one of two values (success or failure)
