@@ -48,5 +48,7 @@ E registers cars for the DMV. SUVs make up 12% of the vehicles she registers. Le
 
 L runs a business, and 10% of order come over the telephone. Let C be the number of orders L receives in a month until she gets her first order over the phone. Assume the method of placing an order is independent. Find the probability that it takes fewer than 5 orders for L to get her first phone order of the month.
 - P(success) = 0.10; P(failure) = 0.90
-- Your are looking for P(C < 5). One what to figure it is P(C = 1) + P(C = 2) + P(C = 3) + P(C = 4).
-- Put another way, you are looking a success in the first 4 trials.
+- Your are looking for P(C < 5). One way to figure it is P(C = 1) + P(C = 2) + P(C = 3) + P(C = 4).
+- Put another way, you are looking for a success in the first 4 trials.
+- That is the same as finding 1 minus the probability that there are no successes in the first 4 trials.
+- 1 - P(4 failures) = 1 - P(failure)<sup>4</sup> = 0.90<sup>4</sup> ≈ 0.3439 
