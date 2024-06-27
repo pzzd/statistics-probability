@@ -25,7 +25,7 @@ The disribution of a GVR is rigth-skewed. It has an infinitely long tail of valu
 <img width="317" alt="distribution of geometric random variable" src="https://github.com/pzzd/statistics-probability/assets/5471867/a187cb4c-977b-4a39-8d16-a45e4f441767">
 
 
-## Example
+## Examples
 
 You have a fair 6-sided die. Let X = the number of rolls until you get a 1. That is, you stop rolling when you get a 1.
 - The probability of rolling a 1 P(X = 1) on the first roll is 1/6. The probability of rolling a 1 on the second roll P(X = 2) is 5/6*1/6; 5/6 is for rolling any other number than 1. This pattern continues because we don't know how many rolls until you get a 1!
@@ -39,4 +39,9 @@ You have a fair 6-sided die. Let X = the number of rolls until you get a 1. That
 Same as above, but it's a 12-sided die. What is the standard deviation?
 - σ<sub>X</sub> = √(1 - 1/12) / (1/12) = √(11/12) * 12 ≈ 11.48
 
-
+E registers cars for the DMV. SUVs make up 12% of the vehicles she registers. Let V be the number of vehicles E registers in a day until she first registers an SUV. Assume the type of each vehicle is independent. Find the probability that E registers more than 4 vehicles before she registers an SUV.
+- P(success) = 0.12 and P(failure) = 0.88
+- You are looking for P(V > 4). That is, you are looking for P(V = 5) + P(V = 6) + P(V = 7)...
+- Put another way, you are looking for P(V is not ≤ 4).
+- Or put this way, P(4 failures) because the first 4 cars must not be SUVs in this case.
+- P(4 failures) = P(failure)<sup>4</sup> = 0.88<sup>4</sup> ≈ 0.5997
