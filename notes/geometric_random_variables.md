@@ -45,3 +45,8 @@ E registers cars for the DMV. SUVs make up 12% of the vehicles she registers. Le
 - Put another way, you are looking for P(V is not ≤ 4).
 - Or put this way, P(4 failures) because the first 4 cars must not be SUVs in this case.
 - P(4 failures) = P(failure)<sup>4</sup> = 0.88<sup>4</sup> ≈ 0.5997
+
+L runs a business, and 10% of order come over the telephone. Let C be the number of orders L receives in a month until she gets her first order over the phone. Assume the method of placing an order is independent. Find the probability that it takes fewer than 5 orders for L to get her first phone order of the month.
+- P(success) = 0.10; P(failure) = 0.90
+- Your are looking for P(C < 5). One what to figure it is P(C = 1) + P(C = 2) + P(C = 3) + P(C = 4).
+- Put another way, you are looking a success in the first 4 trials.
