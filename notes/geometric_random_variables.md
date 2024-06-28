@@ -51,4 +51,11 @@ L runs a business, and 10% of order come over the telephone. Let C be the number
 - Your are looking for P(C < 5). One way to figure it is P(C = 1) + P(C = 2) + P(C = 3) + P(C = 4).
 - Put another way, you are looking for a success in the first 4 trials.
 - That is the same as finding 1 minus the probability that there are no successes in the first 4 trials.
-- 1 - P(4 failures) = 1 - P(failure)<sup>4</sup> = 0.90<sup>4</sup> ≈ 0.3439 
+- 1 - P(4 failures) = 1 - P(failure)<sup>4</sup> = 0.90<sup>4</sup> ≈ 0.3439
+
+I keep picking cards from a standard deck until I get a king. I replace the cards if they are not a king. What is the probability that I need to pick less than 10 cards?
+- P(success) = 1/13; P(failure) = 12/13
+- P(X < 10) = P(X <= 9) = P(X = 1) + P(X = 2) + ... P(X = 9)
+- this is equal to 1 - P(9 failures)
+- 1 - (12/13)<sup>9</sup> = 1 - 0.4865 = 0.5135
+- On a calculator this uses the cumulative distribution function.
