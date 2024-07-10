@@ -195,3 +195,20 @@ Data can be shifted or scaled. Shifted means adding the same quantity to each va
 - IQR is not affected by shifting. It is affecting by scaling (IQR x factor).
 
 Why is data transformed? To convert between units (Fahrenheit to Celcius), to grade a short test on a 100-point scale.
+
+# Box plots
+
+notes to come
+
+# Cumulative relative frequency
+
+notes to come
+
+# Z-score
+
+Z-score measures how many standard deviations a data point is from the population mean in a distribution.  Z-score lets you know how usual a data point is. It's useful for making inferences about the data.
+
+
+It is calculated by the data point minus the population mean, divided by the SD.
+
+z = (x - μ) / σ
