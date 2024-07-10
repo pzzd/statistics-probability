@@ -186,4 +186,12 @@ If you have a skewed data set, with a faraway outlier, median is a good measure 
 
 Mean and standard deviation make more sense for a symmetric data set. Standard deviation is based on mean.
 
+# Transformations
 
+Data can be shifted or scaled. Shifted means adding the same quantity to each value. Scaled mean multiplying the same quantity to each value. Shifting and scaling are linear transformations. 
+- Shifting and scaling cause the mean to change by the same factor. For example, if you add 5 to each value, the mean becomes mean + 5. If you multiply each value by 5, the mean becomes mean x 5.
+- Standard deviation is not affected by shifting. Scaleing affects: SD becomes SD x factor.
+- Median is affected by shifting (median + factor) and scaling (median x factor).
+- IQR is not affected by shifting. It is affecting by scaling (IQR x factor).
+
+Why is data transformed? To convert between units (Fahrenheit to Celcius), to grade a short test on a 100-point scale.
