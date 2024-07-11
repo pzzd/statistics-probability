@@ -214,4 +214,13 @@ z = (x - μ) / σ
 
 Z-scores for normal distributions can be used to compare  different sets of data that a distributed or scaled differently. Example: Compare a person's LSAT and MCAT scores to see which exam he did relatively better on. The means and SDs differ between the two exams, so use the Z-scores of the test take to compare.
 
+# Density curve
 
+A frequency histogram shows raw numbers of data points: the frequency of individuals in each category. This is ok with a small number of individuals. If you have a huge number of individuals, you probably want the percentage of them in each category. You might want very granular categories. If the categories are infinitely small, you will get a density curve. It is like connecting the top of each infinitely small bar on a histogram.
+
+Characteristics:
+- An individual in a density curve can take any value, not just in a category.
+- The area under a density curve is 100% or 1.
+- A density curve does not have negative values.
+- The number of individuals with a value in a given interval is equal to the area under the curve at that interval.
+   
