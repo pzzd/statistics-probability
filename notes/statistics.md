@@ -208,7 +208,10 @@ notes to come
 
 Z-score measures how many standard deviations a data point is from the population mean in a distribution.  Z-score lets you know how usual a data point is. It's useful for making inferences about the data.
 
-
 It is calculated by the data point minus the population mean, divided by the SD.
 
 z = (x - μ) / σ
+
+Z-scores for normal distributions can be used to compare  different sets of data that a distributed or scaled differently. Example: Compare a person's LSAT and MCAT scores to see which exam he did relatively better on. The means and SDs differ between the two exams, so use the Z-scores of the test take to compare.
+
+
