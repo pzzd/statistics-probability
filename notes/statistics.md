@@ -223,4 +223,21 @@ Characteristics:
 - The area under a density curve is 100% or 1.
 - A density curve does not have negative values.
 - The number of individuals with a value in a given interval is equal to the area under the curve at that interval.
+- The median of the density curve is where the area under the curve is cut in half.
+
+## Shape of curve and center
+
+If a density curve is symmetric, the median and the mean are in the center.
+
+In a right-skewed curve, with a long tail to the right, the mean is to the right of the median. 
+
+# Normal distribution
+
+A normal distribution comes from randomly distributed data.
+
+You can use the empirical rule with a normal distribution to estimate the percentage of population, This rule is also called the 68-95-99.7 rule.
+- The probability of finding a result within one standard deviation from the mean is 68%. In other words, 68% of individual values are within 1 SD of the mean.
+- Within 2 SDs, there is a 95% chance of finding a result. 95% of the data is within 2 SDs.
+- Within 3 SDs, there is a 99.7% chance of finding a result.
+
    
