@@ -212,7 +212,7 @@ It is calculated by the data point minus the population mean, divided by the SD.
 
 z = (x - μ) / σ
 
-Z-scores for normal distributions can be used to compare  different sets of data that a distributed or scaled differently. Example: Compare a person's LSAT and MCAT scores to see which exam he did relatively better on. The means and SDs differ between the two exams, so use the Z-scores of the test take to compare.
+Z-scores for normal distributions can be used to compare different sets of data that a distributed or scaled differently. Example: Compare a person's LSAT and MCAT scores to see which exam he did relatively better on. The means and SDs differ between the two exams, so use the Z-scores of the test take to compare.
 
 # Density curve
 
@@ -239,5 +239,24 @@ You can use the empirical rule with a normal distribution to estimate the percen
 - The probability of finding a result within one standard deviation from the mean is 68%. In other words, 68% of individual values are within 1 SD of the mean.
 - Within 2 SDs, there is a 95% chance of finding a result. 95% of the data is within 2 SDs.
 - Within 3 SDs, there is a 99.7% chance of finding a result.
+
+# Z table, or standard normal table
+
+Use a Z table to find the proportion of data when a data point does not fall exactly on a whole-number standard deviation. It gives a cumulative area from 0 to the data point: it give the proporption below a Z-Score.
+
+1. Find out how many SDs the data point is from the mean (z). See above for calculating Z-Score. The Z-Score is negative if the data point is less than the mean.
+
+2. Look up the fractional SD in a [Z table](https://ztable.io). There is a negative table and a positive table. Look down the left side for the onces and tenths place of the SD; look across the top for the hundredths place of the SD. At the intersection is a decimal value: this is the percentage of the area from 0 to the data point.
+
+Example:
+- Imagine a normal distribution with mean 150 and standard deviation 20. X is a number individuals in the population. What is the proportion of the population where X is less than 161.4?
+- Calculate the Z-Score. z = (x - μ) / σ = (161.4 - 150)/ 20 = .57
+- Look up .57 in a Z table. On the right column, look up 0.5; across the top row find .07. You find 0.7157 at the intersection. This means that .7157 of the population is less than 161.4.
+
+To find an area from a data point to the end, instead find the cumulative area from 0 tot he data point and subtract it from 1.0. To find an area between two values, you will likely have to find a few Z-Scores and subtract one proportion from another.
+
+You can use a given percentage of the population and a Z table to find a Z-Score and then the data point value.
+
+
 
    
