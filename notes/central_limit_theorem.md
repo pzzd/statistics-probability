@@ -29,7 +29,7 @@ The frequency of x̄ = 1/9. The frequency of x̄ = 2 is 1/3. What is the chance 
 
 ## Central limit theorem
 
-Given any probability distribution that has a well-defined mean and variance, continuous or discrete, and not necessarily a normal distribution, the more random samples you take from it and the greater the sample size, the more normal the sample distribution is for the sample mean and the sample sum. 
+Given any probability distribution that has a well-defined mean and variance, continuous or discrete, and not necessarily a normal distribution, the more random samples you take from it and the greater the sample size, the more normal the sample distribution is for the sample mean and the sample sum. A sample mean is the mean of the values of n random samples; the set of these samples make up a random sample.
 
 See https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/what-is-sampling-distribution/v/central-limit-theorem for a worked example of a non-normal probability distribution that yields a normal distribution of sample means.
 
