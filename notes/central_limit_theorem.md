@@ -6,9 +6,17 @@ Sampling lets you learn parameters about a population when it is difficult or im
 
 A sampling distribution is the frequency with which you can get different values for a statistic that is trying to estimate a parameter.
 
+Let's use our own vocabulary to define sets until we find something more official.
+- sample set: a group of rancom samples with n individuals
+- n: the number of individuals in a sample set
+- sample: one of n individuals
+- x̄: the mean of a sample set
+- q: the number of random sample sets 
+- A sampling distribution is made up of q sets, each with n individuals. Each set has its own x̄. A frequency distribution of x̄ is plotted from all the sample sets' values for x̄.
+
 Example: Imagine a bucket with three balls. Each ball has a number value on it: 1, 2, 3. We know the whole population and the so we know the population mean μ = (1 + 2 + 3)/3 = 2. Now can draw random samples of size 2 (draw with replacement to keep it random). All the possible values of sample mean x̄ are in this table. This is the sampling distribution of the sample means
 
-| drawn numbers | x̄ |
+| sample set | x̄ |
 | --- | --- |
 | 1,1|1|
 | 1,2|1.5|
@@ -29,7 +37,7 @@ The frequency of x̄ = 1/9. The frequency of x̄ = 2 is 1/3. What is the chance 
 
 ## Central limit theorem
 
-Given any probability distribution that has a well-defined mean and variance, continuous or discrete, and not necessarily a normal distribution, the more random samples you take from it and the greater the sample size, the more normal the sample distribution is for the sample mean and the sample sum. A sample mean is the mean of the values of n random samples; the set of these samples make up a random sample.
+Given any probability distribution that has a well-defined mean and variance, continuous or discrete, and not necessarily a normal distribution, the more sample sets q and the greater the sample size n, the more normal the frequency distribution is for the sample mean and the sample sum. A sample mean is the mean of the values of n random samples; the set of these samples make up a random sample.
 
 See https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/what-is-sampling-distribution/v/central-limit-theorem for a worked example of a non-normal probability distribution that yields a normal distribution of sample means.
 
