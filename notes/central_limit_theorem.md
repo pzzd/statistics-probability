@@ -26,3 +26,11 @@ The frequency of x̄ = 1/9. The frequency of x̄ = 2 is 1/3. What is the chance 
   <img width="284" alt="Sample distribution plot" src="https://github.com/user-attachments/assets/3bf50794-8c8a-4e62-9dcb-daa43e8de767">
   <figcaption>https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/what-is-sampling-distribution/v/introduction-to-sampling-distributions</figcaption>
 </figure>
+
+## Central limit theorem
+
+Given any probability distribution that has a well-defined mean and variance, continuous or discrete, and not necessarily a normal distribution, the more random samples you take from it and the greater the sample size, the more normal the sample distribution is for the sample mean and the sample sum. 
+
+See https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/what-is-sampling-distribution/v/central-limit-theorem for a worked example of a non-normal probability distribution that yields a normal distribution of sample means.
+
+You don't need to know the probability distribution of the original population. CTL says that if you sample it enough for sample means or sample sums, you will get a normal distribution. This makes the CTL useful for describing natural processes with random behavior.
