@@ -45,8 +45,8 @@ See https://onlinestatbook.com for an experimental demonstration of the how a gr
 
 Given any probability distribution that has a well-defined mean and variance, continuous or discrete, and not necessarily a normal distribution, the greater the sample size n, the more normal the frequency distribution is for the sample mean and the sample sum. A sample mean is the mean of the values of n random samples; the set of these samples make up a random sample.
 
-A greater value for n yields a more normal curve.
-- There is a tighter fit around the mean.
+As n approaches infinity, the more normal is the curve of the sampling distribution.
+- There is a tighter fit around the mean. The standard deviation is reduced.
 - Skew is closer to 0.
 - Kurtosis is closer to 0. (Positive kurtosis has a curve that is pointy in the middle and with fatter tails; negative kurtosis has skinnier tails and a smoother hump.)
 
