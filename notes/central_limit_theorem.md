@@ -37,11 +37,18 @@ The frequency of x̄ = 1/9. The frequency of x̄ = 2 is 1/3. What is the chance 
 
 In the term "sampling distribution of the sample mean", "sampling distribution" means that the samples come from an original distribution. The "sample mean" refers to the mean of each sample set.
 
+See https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/what-is-sampling-distribution/v/central-limit-theorem for a worked example of a non-normal probability distribution that yields a normal distribution of sample means.
+
+See https://onlinestatbook.com for an experimental demonstration of the how a greater value of n yields a more normal curve in the sampling distribution. 
+
 ## Central limit theorem
 
-Given any probability distribution that has a well-defined mean and variance, continuous or discrete, and not necessarily a normal distribution, the more sample sets q and the greater the sample size n, the more normal the frequency distribution is for the sample mean and the sample sum. A sample mean is the mean of the values of n random samples; the set of these samples make up a random sample.
+Given any probability distribution that has a well-defined mean and variance, continuous or discrete, and not necessarily a normal distribution, the greater the sample size n, the more normal the frequency distribution is for the sample mean and the sample sum. A sample mean is the mean of the values of n random samples; the set of these samples make up a random sample.
 
-See https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/what-is-sampling-distribution/v/central-limit-theorem for a worked example of a non-normal probability distribution that yields a normal distribution of sample means.
+A greater value for n yields a more normal curve.
+- There is a tighter fit around the mean.
+- Skew is closer to 0.
+- Kurtosis is closer to 0. (Positive kurtosis has a curve that is pointy in the middle and with fatter tails; negative kurtosis has skinnier tails and a smoother hump.)
 
 You don't need to know the probability distribution of the original population. CLT says that if you sample it enough for sample means or sample sums, you will get a normal distribution. This makes the CLT useful for describing natural processes with random behavior.
 
