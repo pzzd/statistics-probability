@@ -58,7 +58,13 @@ The variability of a statistic refers to how much the estimate varies from sampl
 
 Some review:
 - Bernoulli random variable is a var with a discrete 1-or-0 value, with probability p and mean μ equal to p. Standard deviation is σ<sub>Y</sub> = √(p(1-p)).
+- Binomial random variable is for calculating across independent trials. mean is the number of trials multiplied by the mean of the Bernoullitrials: μ = np.
 
 Example:
-- 10,000 gumballs in a machine.
-- The probability of yellow gumballs in it is p = 0.6. Represent this with Bernoulli var Y.  μ<sub>Y</sub> = 0.6. σ<sub>Y</sub> = √(0.6 x 0.4).
+- 10,000 gumballs in a machine. 60% of the gumballs are yello.
+- Bernoulli var Y is the probability of yellow gumballs.
+  - p = 0.6
+  - μ<sub>Y</sub> = 0.6
+  - σ<sub>Y</sub> = √(0.6 x 0.4)
+- Binomial random var X is the sum of 10 independent trials of Y.
+  - μ<sub>X</sub> = 10 x 0.6 = 6. This makes sense: if you draw 10 you expect to get 6 yellow gumballs.
