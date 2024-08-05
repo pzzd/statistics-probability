@@ -53,3 +53,12 @@ A statistic is an unbiased estimator of a parameter when the mean of its samplin
 ## Variability
 
 The variability of a statistic refers to how much the estimate varies from sample to sample. We gauge the variability of a statistic by looking at the spread of its sampling distribution.
+
+## Sampling distribution of sample proportion
+
+Some review:
+- Bernoulli random variable is a var with a discrete 1-or-0 value, with probability p and mean μ equal to p. Standard deviation is σ<sub>Y</sub> = √(p(1-p)).
+
+Example:
+- 10,000 gumballs in a machine.
+- The probability of yellow gumballs in it is p = 0.6. Represent this with Bernoulli var Y.  μ<sub>Y</sub> = 0.6. σ<sub>Y</sub> = √(0.6 x 0.4).
