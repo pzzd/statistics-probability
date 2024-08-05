@@ -57,8 +57,10 @@ The variability of a statistic refers to how much the estimate varies from sampl
 ## Sampling distribution of sample proportion
 
 Some review:
-- Bernoulli random variable is a var with a discrete 1-or-0 value, with probability p and mean μ equal to p. Standard deviation is σ<sub>Y</sub> = √(p(1-p)).
-- Binomial random variable is for calculating across independent trials. mean is the number of trials multiplied by the mean of the Bernoullitrials: μ = np.
+- Bernoulli random variable is a var with a discrete 1-or-0 value, with probability p and mean μ equal to p. Standard deviation is σ = √(p(1-p)).
+- Binomial random variable is for calculating across independent trials. mean is the number of trials multiplied by the mean of the Bernoullitrials: μ = np. Standard deviation σ = √(np(1-p)).
+
+Sample proportion
 
 Example:
 - 10,000 gumballs in a machine. 60% of the gumballs are yello.
@@ -68,3 +70,4 @@ Example:
   - σ<sub>Y</sub> = √(0.6 x 0.4)
 - Binomial random var X is the sum of 10 independent trials of Y.
   - μ<sub>X</sub> = 10 x 0.6 = 6. This makes sense: if you draw 10 you expect to get 6 yellow gumballs.
+  - σ<sub>X</sub> = √(10 x 0.6 x 0.4)
