@@ -189,3 +189,10 @@ A company produces processing chips for cellphones. At one of its large factorie
 - Var(Y) = success probabilty * failure probability = n(1-p) = 0.02 * 0.98
 - back to variance: Var(X) = 500 * 0.02 * 0.98 = 9.8
 - SD = 9.8<sup>1/2</sup> ≈ 3.13
+
+## Bernoulli distribution
+
+A Bernoulli distribution "is the discrete probability distribution of a random variable which takes the value 1 with probability 
+p and the value 0 with probability q = 1/p. Less formally, it can be thought of as a model for the set of possible outcomes of any single experiment that asks a yes–no question" (https://en.wikipedia.org/wiki/Bernoulli_distribution).
+
+So, a Bernoulli variable is the variable for a single random trial: it is a type of a binomial distribution.
