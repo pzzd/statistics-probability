@@ -72,10 +72,12 @@ Example: There are 10,000 gumballs in a machine. 60% of the gumballs are yello.
   - σ<sub>X</sub> = √(10 x 0.6 x 0.4)
 
 A sample proportion is equal to the binomial random variable divided by the number of trials. Larger number of trials n will result in normal distribution where the parameter approaches the value of the population's parameter (e.g., the sample mean will get close and closer to the population mean).
-- μ<sub>p̂</sub> = μ<sub>X</sub>/n
+- μ<sub>p̂</sub> = μ<sub>X</sub>/n = np/n = p
+- σ<sub>p̂</sub> = σ<sub>X</sub>/n = ... = √(p(1-p)/n)
 
 Following our example: Each sample we take has n = 10 independent trials in it.
 - one sample is p̂ = X/n = X/10 = 0.3
 - another sample is p̂ = X/n = X/10 = 0.7
-- etc etc.
-- If you plot all of these with a simulation, you will see a normal distribution with mean around 0.6.
+- After many such samples, if you plot all of these sample means , you will see a normal distribution with mean around 0.6.
+- μ<sub>p̂</sub> = μ<sub>X</sub>/n = 0.6
+- σ<sub>p̂</sub> = √(p(1-p)/n) = √(0.6 * 0.4 / 10) ≈ 0.15
