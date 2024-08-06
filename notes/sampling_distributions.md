@@ -86,5 +86,9 @@ Following our example: Each sample we take has n = 10 independent trials in it.
 ## Normal conditions for sampling distributions of sample proportions
 
 The rule of thumb for skewness is: if np >= 10 AND n(1-p) >= 10, then the sampling distribution is "approximately normal". Remember, the sampling distribution shows proportions over many samples; n is the number of trials in each sample; p is population proportion for a 'yes'/success/affirmative in a trial.
+- "We need at least 10 expected "successes" and at least 10 expected "failures" for the sampling distribution of the sample proportion to be approximately normal." (from https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/sampling-distribution-proportion/e/normal-condition-sample-proportions)
+
 
 If np < 10, this means the probability of yes/success/affirmative is rather low. In each sample of n trials, there will tend to a be a lot of samples with a low number of successes. A graph of such a distribution is right skewed (high on the left, long tail to the right) with sampling distribution mean proportion μ<sub>p̂</sub> around the population proportion of success (p) (this is the high point of the curve).
+- We have a right-skewed sampling distribution because the population proportion is so extreme relative to the sample size that there are fewer than 10 expected successes per sample"
+- "Since the probability of getting an overripe tangerine is relatively low, we expect a small percentage of the daily sample to be overripe on most days. Some days however could have a relatively larger percentage of overripe tangerines. So the proportion of overripe tangerines will be low most days, and skewed toward the higher proportions." (from https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/sampling-distribution-proportion/e/normal-condition-sample-proportions)
