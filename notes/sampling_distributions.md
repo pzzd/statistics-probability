@@ -85,6 +85,6 @@ Following our example: Each sample we take has n = 10 independent trials in it.
 
 ## Normal conditions for sampling distributions of sample proportions
 
-The rule of thumb for skewness is: if np >= 10 AND n(1-p) >= 10, then the sampling distribution is pretty normal. Remember, the sampling distribution shows proportions over many samples; n is the number of trials in each sample; p is population proportion for a 'yes'/success/affirmative in a trial.
+The rule of thumb for skewness is: if np >= 10 AND n(1-p) >= 10, then the sampling distribution is "approximately normal". Remember, the sampling distribution shows proportions over many samples; n is the number of trials in each sample; p is population proportion for a 'yes'/success/affirmative in a trial.
 
-If np < 10, this means the probability of yes/success/affirmative is rather low. In each sample of n trials, there will tend to a be a lot of samples with a low number of successes. A graph of such a distribution is right skewed (high on the left, long tail to the right) with mean around the population mean (this is the high point of the curve).
+If np < 10, this means the probability of yes/success/affirmative is rather low. In each sample of n trials, there will tend to a be a lot of samples with a low number of successes. A graph of such a distribution is right skewed (high on the left, long tail to the right) with sampling distribution mean proportion μ<sub>p̂</sub> around the population proportion of success (p) (this is the high point of the curve).
