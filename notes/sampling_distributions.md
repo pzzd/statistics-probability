@@ -67,13 +67,14 @@ Example: There are 10,000 gumballs in a machine. 60% of the gumballs are yello.
   - p = 0.6
   - μ<sub>Y</sub> = 0.6
   - σ<sub>Y</sub> = √(0.6 x 0.4)
-- Binomial random var X is the sum of 10 independent trials of Y.
+- Binomial random var X is the sum of 10 independent trials of Y. Binomial random variables give you the number of successes.
   - μ<sub>X</sub> = 10 x 0.6 = 6. This makes sense: if you draw 10 you expect to get 6 yellow gumballs.
   - σ<sub>X</sub> = √(10 x 0.6 x 0.4)
 
-A sample proportion is equal to the binomial random variable divided by the number of trials. Larger number of trials n will result in normal distribution where the parameter approaches the value of the population's parameter (e.g., the sample mean will get close and closer to the population mean).
+A sample proportion is equal to the binomial random variable divided by the number of trials. Larger number of trials n will result in normal distribution where the parameter approaches the value of the population's parameter (e.g., the sample mean will get close and closer to the population mean). A sample proportion gives you the proportion of successes.
 - μ<sub>p̂</sub> = μ<sub>X</sub>/n = np/n = p
 - σ<sub>p̂</sub> = σ<sub>X</sub>/n = ... = √(p(1-p)/n)
+  - This formula can be used if the population is more than 10 times the sample size.
 
 Following our example: Each sample we take has n = 10 independent trials in it.
 - one sample is p̂ = X/n = X/10 = 0.3
