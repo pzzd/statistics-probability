@@ -97,6 +97,7 @@ If np < 10, this means the probability of yes/success/affirmative is rather low.
 ## Sampling distribution of the difference in sample proportions
 
 In questions of the difference between sample proportions, remember the following:
+- The mean of the difference of two random variables is equal to the difference of the means of the two random variables. See notes on [Mean of sum and difference of random variables](https://github.com/pzzd/statistics-probability/blob/main/notes/probability.md#mean-of-sum-and-difference-of-normal-random-variables).
 - Are the samples independent of each other? If what you're sampling from A does not affect what you're sampling from  B or vice versa, then you can add the variances.
 - To find the difference in standard deviation, find the variance of each sample and add them, then find the square root.
 - Why add variances? Variance is a measure of a spread. ["And whether you're now taking the difference of random variables or you're taking the sum of them, when you have more variables, you're going to have more spread. So regardless of whether this is a negative or positive over here, this is going to be a positive."](https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/xfb5d8e68:sampling-distribution-diff-proportions/v/sampling-dist-diff-proportions) Also see notes on [Variance of sum and difference of random variables](https://github.com/pzzd/statistics-probability/blob/main/notes/probability.md#variance-of-sum-and-difference-of-random-variables).
