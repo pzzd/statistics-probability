@@ -86,7 +86,7 @@ Following our example: Each sample we take has n = 10 independent trials in it.
 
 ## Normal conditions for sampling distributions of sample proportions
 
-The rule of thumb for skewness is: if np >= 10 AND n(1-p) >= 10, then the sampling distribution is "approximately normal". Remember, the sampling distribution shows proportions over many samples; n is the number of trials in each sample; p is population proportion for a 'yes'/success/affirmative in a trial.
+The rule of thumb for skewness is: if np >= 10 AND n(1-p) >= 10, then the sampling distribution is "approximately normal". This is known as the "large counts condition". Remember, the sampling distribution shows proportions over many samples; n is the number of trials in each sample; p is population proportion for a 'yes'/success/affirmative in a trial.
 - "We need at least 10 expected "successes" and at least 10 expected "failures" for the sampling distribution of the sample proportion to be approximately normal." (from https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/sampling-distribution-proportion/e/normal-condition-sample-proportions)
 
 
@@ -99,12 +99,18 @@ If np < 10, this means the probability of yes/success/affirmative is rather low.
 In questions of the difference between sample proportions, remember the following:
 - The mean of the difference of two random variables is equal to the difference of the means of the two random variables. See notes on [Mean of sum and difference of random variables](https://github.com/pzzd/statistics-probability/blob/main/notes/probability.md#mean-of-sum-and-difference-of-normal-random-variables).
 - Are the samples independent of each other? If what you're sampling from A does not affect what you're sampling from  B or vice versa, then you can add the variances.
-- Is each observation independent of the others? That is, are you sampling with replacement, or is the number of samples less than 10% of the population? Than you can safely find variance with P(1-P)/n.
+- Is each observation independent of the others? That is, are you sampling with replacement, or alternatively, is the number of samples less than 10% of the population? Then you can safely find variance with P(1-P)/n.
 - To find the difference in standard deviation, find the variance of each sample and add them, then find the square root.
 - Why add variances? Variance is a measure of a spread. ["And whether you're now taking the difference of random variables or you're taking the sum of them, when you have more variables, you're going to have more spread. So regardless of whether this is a negative or positive over here, this is going to be a positive."](https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/xfb5d8e68:sampling-distribution-diff-proportions/v/sampling-dist-diff-proportions) Also see notes on [Variance of sum and difference of random variables](https://github.com/pzzd/statistics-probability/blob/main/notes/probability.md#variance-of-sum-and-difference-of-random-variables).
-
+- Is the expected value of each sample proportion greater than 10? Then they pass the "large counts condition", and the shape of the sampling distribution of the difference in sample proportions is normal.
 
 <figure>
   <img width="500" alt="Screenshot 2024-08-21 at 08 23 39" src="https://github.com/user-attachments/assets/bf80b329-da88-4169-8b7f-1cf3481c9e61">
   <figcaption>https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/what-is-sampling-distribution/v/introduction-to-sampling-distributions</figcaption>
 </figure>
+
+<figure>
+  <img width="500" alt="Screenshot 2024-08-21 at 08 35 46" src="https://github.com/user-attachments/assets/0079d255-a8b3-42ac-aafa-0c93e909961c">
+  <figcaption>https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/what-is-sampling-distribution/v/introduction-to-sampling-distributions</figcaption>
+</figure>
+
