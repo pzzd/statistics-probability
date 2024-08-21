@@ -102,3 +102,9 @@ In questions of the difference between sample proportions, remember the followin
 - Is each observation independent of the others? That is, are you sampling with replacement, or is the number of samples less than 10% of the population? Than you can safely find variance with P(1-P)/n.
 - To find the difference in standard deviation, find the variance of each sample and add them, then find the square root.
 - Why add variances? Variance is a measure of a spread. ["And whether you're now taking the difference of random variables or you're taking the sum of them, when you have more variables, you're going to have more spread. So regardless of whether this is a negative or positive over here, this is going to be a positive."](https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/xfb5d8e68:sampling-distribution-diff-proportions/v/sampling-dist-diff-proportions) Also see notes on [Variance of sum and difference of random variables](https://github.com/pzzd/statistics-probability/blob/main/notes/probability.md#variance-of-sum-and-difference-of-random-variables).
+
+
+<figure>
+  <img width="500" alt="Screenshot 2024-08-21 at 08 23 39" src="https://github.com/user-attachments/assets/bf80b329-da88-4169-8b7f-1cf3481c9e61">
+  <figcaption>https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/what-is-sampling-distribution/v/introduction-to-sampling-distributions</figcaption>
+</figure>
