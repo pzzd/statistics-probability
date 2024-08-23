@@ -97,20 +97,37 @@ If np < 10, this means the probability of yes/success/affirmative is rather low.
 ## Sampling distribution of the difference in sample proportions
 
 In questions of the difference between sample proportions, remember the following:
+
+Shape:
+- The shape of the sampling distribution of p̂<sub>A</sub> - p̂<sub>B</sub> depends on whether it both values satisfy teh "large counts condition". If the  expected value of each sample proportion is greater than or equal to 10, then the shape of the sampling distribution of the difference in sample proportions is approximately normal. If one of the value is less than 10, the shape is not normal.
+
+Center: 
 - The mean of the difference of two random variables is equal to the difference of the means of the two random variables. See notes on [Mean of sum and difference of random variables](https://github.com/pzzd/statistics-probability/blob/main/notes/probability.md#mean-of-sum-and-difference-of-normal-random-variables).
-- Are the samples independent of each other? If what you're sampling from A does not affect what you're sampling from  B or vice versa, then you can add the variances.
-- Is each observation independent of the others? That is, are you sampling with replacement, or alternatively, is the number of samples less than 10% of the population? Then you can safely find variance with P(1-P)/n.
-- To find the difference in standard deviation, find the variance of each sample and add them, then find the square root.
-- Why add variances? Variance is a measure of a spread. ["And whether you're now taking the difference of random variables or you're taking the sum of them, when you have more variables, you're going to have more spread. So regardless of whether this is a negative or positive over here, this is going to be a positive."](https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/xfb5d8e68:sampling-distribution-diff-proportions/v/sampling-dist-diff-proportions) Also see notes on [Variance of sum and difference of random variables](https://github.com/pzzd/statistics-probability/blob/main/notes/probability.md#variance-of-sum-and-difference-of-random-variables).
-- Is the expected value of each sample proportion greater than 10? Then they pass the "large counts condition", and the shape of the sampling distribution of the difference in sample proportions is normal.
+- μ<sub>p̂A - p̂B</sub> = μ<sub>p̂A</sub> - μ<sub>p̂B</sub> = p̂<sub>A</sub> - p̂<sub>B</sub
+
+Variability: 
+- Standard deviation is a measure of variability. Work with variance when doing the arithmetic.
+- You can use the formula below for the standard deviation of the difference if BOTH 1) the observations between the two samples are independent of each other AND 2) the observations with a sample are independent of each other.
 
 <figure>
-  <img width="500" alt="Screenshot 2024-08-21 at 08 23 39" src="https://github.com/user-attachments/assets/bf80b329-da88-4169-8b7f-1cf3481c9e61">
+  <img width="500" alt="Screenshot 2024-08-23 at 08 30 52" src="https://github.com/user-attachments/assets/39d15367-7c07-4cdc-b5b2-e0877adeee15">
+  <figcaption>from https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/what-is-sampling-distribution/v/introduction-to-sampling-distributions</figcaption>
+</figure>
+
+- There are two ways to establish that each observation in a sample is independent of the others.
+  - Sampling with replacement
+  - Check that the number of samples less than 10% of the population 
+- To find the difference in standard deviation, find the variance P(1-P)/n of each sample and add them, then find the square root.
+  - Always add add variances, even if it's a question of the difference of sample proportions. Variance is a measure of a spread. ["And whether you're now taking the difference of random variables or you're taking the sum of them, when you have more variables, you're going to have more spread. So regardless of whether this is a negative or positive over here, this is going to be a positive."](https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/xfb5d8e68:sampling-distribution-diff-proportions/v/sampling-dist-diff-proportions) Also see notes on [Variance of sum and difference of random variables](https://github.com/pzzd/statistics-probability/blob/main/notes/probability.md#variance-of-sum-and-difference-of-random-variables).
+
+
+<figure>
+  <img width="500" alt="Screenshot 2024-08-21 at 08 23 39" src="https://github.com/user-attachments/assets/bf80b329-da88-4169-8b7f-1cf3481c9e61"><br>
   <figcaption>https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/what-is-sampling-distribution/v/introduction-to-sampling-distributions</figcaption>
 </figure>
 
 <figure>
-  <img width="500" alt="Screenshot 2024-08-21 at 08 35 46" src="https://github.com/user-attachments/assets/0079d255-a8b3-42ac-aafa-0c93e909961c">
+  <img width="500" alt="Screenshot 2024-08-21 at 08 35 46" src="https://github.com/user-attachments/assets/0079d255-a8b3-42ac-aafa-0c93e909961c"><br>
   <figcaption>https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/what-is-sampling-distribution/v/introduction-to-sampling-distributions</figcaption>
 </figure>
 
