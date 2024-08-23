@@ -124,7 +124,7 @@ Variability:
 <figure>
   <img width="500" alt="Screenshot 2024-08-21 at 08 23 39" src="https://github.com/user-attachments/assets/bf80b329-da88-4169-8b7f-1cf3481c9e61"><br>
   <figcaption>https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/what-is-sampling-distribution/v/introduction-to-sampling-distributions</figcaption>
-</figure>
+</figure><br><br>
 
 <figure>
   <img width="500" alt="Screenshot 2024-08-21 at 08 35 46" src="https://github.com/user-attachments/assets/0079d255-a8b3-42ac-aafa-0c93e909961c"><br>
